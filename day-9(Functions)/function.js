@@ -47,3 +47,11 @@ hello();
 
 let res = hello();
 console.log(res);
+
+// default keyword function name
+// we can't use reserved keyword as variable or function name
+function switch1(x)
+{
+console.log(~~x);
+};
+switch1(56.2);
