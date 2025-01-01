@@ -25,3 +25,18 @@ for (let i = 0; i < str2.length; i++) {
 // String are immutable we can't change value
 str2[4] = 'K';//we can't do this
 console.log(str2);
+
+let newStr = "Welcome";
+// console.log(newStr.split(""));
+let res = newStr.split(" ");
+let res1 = res.map((e) => {
+    console.log(e.split("").reverse().join(''));
+})
+const string1 = "Welcome to javascript guide";
+
+let newString1 = string1.split(" ");
+
+let newString2 = newString1.map((data) => {
+    return data.split("").reverse().join("");
+});
+console.log(newString2);
